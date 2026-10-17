@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "durationSeconds": 210.3,
+  "totalFrames": 6309,
+  "decodeErrors": [],
+  "samplePeakDbfs": -3.5,
+  "finalSha256": "a9c96f15bf97ecd271f47ecdc214e87c064e58aa3040b52246ecadeea76ce36d",
+  "timelineSha256": "b05a7f24cbd4fdbe9c5ea362b7377d46b69092c2005fe59d566eb8f4dc2e5fa9",
+  "visualReview": "pending-human-or-agent-image-inspection",
+  "userAcceptance": "pending"
+}

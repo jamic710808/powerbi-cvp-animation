@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>賣多少，才不虧？ · 動畫</title>
+<meta name="description" content="Power BI 量本利分析報告的動畫版：月會上，老闆問賣多少才不虧，財務小琪用水桶、保本線和旗艦君回答。">
+<style>
+:root{--bg:#f6efe2;--card:#fff;--ink:#243049;--mut:#6a7894;--blue:#3f74d8;--orange:#f28c38;--mint:#35b49a;--line:#e1d6c0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Microsoft JhengHei","Noto Sans TC","PingFang TC",sans-serif;line-height:1.7}
+a{color:var(--blue)}
+.wrap{max-width:1040px;margin:0 auto;padding:36px 20px 70px}
+h1{font-size:clamp(32px,5vw,54px);line-height:1.15}
+h1 span{color:var(--orange)}
+.sub{color:var(--mut);font-size:18px;margin:10px 0 24px}
+.card{background:var(--card);border-radius:18px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(36,48,73,.1)}
+.vid{padding:10px}
+video{display:block;width:100%;border-radius:12px;background:#000;aspect-ratio:16/9}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:5px 12px;font:inherit;font-size:14px;font-weight:700;color:var(--ink);cursor:pointer}
+.chip small{color:var(--orange);margin-right:4px}
+.chip:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+.chip:hover small{color:#fff}
+:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+h2{font-size:24px;margin:34px 0 10px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{padding:20px 22px}
+.box.fact{border-top:6px solid var(--mint)}.box.warn{border-top:6px solid var(--orange)}
+.box h3{font-size:19px;margin-bottom:6px}
+.box li{margin:6px 0 6px 20px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.btn{display:inline-block;padding:9px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:700;text-decoration:none;color:var(--ink)}
+.btn.pri{background:var(--blue);border-color:var(--blue);color:#fff}
+footer{margin-top:40px;color:var(--mut);font-size:14px}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+ <h1>賣多少，<span>才不虧？</span></h1>
+ <p class="sub">一份 Power BI 量本利分析報告的動畫版　·　3 分 30 秒　·　扁平插畫＋動態圖表</p>
+ <div class="card vid"><video id="v" controls preload="metadata" playsinline poster="poster.jpg"><source src="animation.mp4" type="video/mp4">你的瀏覽器不支援影片播放。</video></div>
+ <div class="chips" id="chips"></div>
+
+ <h2>故事</h2>
+ <p>月會上，老闆盯著折線圖：銷售額漲了，利潤卻原地踏步。他問了兩個問題：利潤怎麼沒跟著漲？下個月，至少做多少才不虧？財務主管小琪用水桶講量價本利、用保本線算出底線，再帶老闆逛一圈 Power BI 報告——從公司層的滑桿與槓桿，到電飯煲旗艦款「旗艦君」的單品貢獻。</p>
+
+ <div class="two" style="margin-top:22px">
+  <div class="card box fact"><h3>✅ 數字都有出處</h3><ul>
+   <li>2026 年 8 月：營收 1,418、貢獻率 30.7%、固定成本 374、保本 1,217、利潤 62（萬元）。</li>
+   <li>旗艦君：單價 386.71、單位貢獻 119.02、保本 486 臺、可追溯貢獻 29 萬。</li>
+   <li>模型：3 張事實表、4 張維度表、7 條關聯、68 個度量值。</li>
+  </ul></div>
+  <div class="card box warn"><h3>⚠️ 請注意</h3><ul>
+   <li><b>人物與劇情為虛構</b>；資料為示範（模擬）資料。</li>
+   <li>「每 100 元」的拆解（變動成本約 69.3、固定費用約 26.4、利潤約 4.4）是<b>推算值</b>，畫面已標示。</li>
+   <li>每年二月利潤為負，報表沒說原因，動畫不下結論。</li>
+   <li>單品頁看的是可追溯貢獻，<b>不是產品利潤</b>。</li>
+  </ul></div>
+ </div>
+
+ <div class="links">
+  <a class="btn pri" href="https://powerbi-cvp-explainer.vercel.app/" target="_blank" rel="noopener">互動圖解導覽頁（含 6 分鐘導覽影片）↗</a>
+  <a class="btn" href="https://github.com/jamic710808/powerbi-cvp-animation" target="_blank" rel="noopener">動畫原始碼 ↗</a>
+  <a class="btn" href="https://app.powerbi.com/view?r=eyJrIjoiMWJhODlmMzItZDAwMS00MGVkLTk4OTktM2I1YTZlYWJkYmEzIiwidCI6IjE2ZGVlZGU4LTc5ZTktNGUzMy05OWU2LTlkOGQzOTQyZDc5NiIsImMiOjEwfQ%3D%3D" target="_blank" rel="noopener">線上 Power BI 報告 ↗</a>
+ </div>
+ <footer>旁白：Gemini TTS（Kore）；配樂與音效為程式合成。畫面中的報表截圖取自公開發佈的 Power BI 報告（封面署名 @Ken.Liu）；本動畫為學習／導覽用整理，非原作者製作。</footer>
+</main>
+<script>
+const CH=[['月會',0],['量價本利',12.5],['保本線',44.5],['兩層六頁',73.3],['經營概覽',84.4],['公司層',103.3],['旗艦君',132.3],['口徑與模型',165.5],['回到會議室',183.7]];
+const fmt=s=>Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0');
+const box=document.getElementById('chips'),v=document.getElementById('v');
+box.innerHTML=CH.map(c=>`<button class="chip" data-t="${c[1]}"><small>${fmt(c[1])}</small>${c[0]}</button>`).join('');
+box.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{v.currentTime=+b.dataset.t;v.play().catch(()=>{});v.scrollIntoView({block:'center',behavior:'smooth'})});
+</script>
+</body>
+</html>

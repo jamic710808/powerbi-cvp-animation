@@ -1,0 +1,53 @@
+{
+  "mode": "preview",
+  "timelineSha256": "b05a7f24cbd4fdbe9c5ea362b7377d46b69092c2005fe59d566eb8f4dc2e5fa9",
+  "browser": "155.0.8059.80",
+  "totalFrames": 6309,
+  "durationSeconds": 210.3,
+  "determinism": [
+    {
+      "frame": 0,
+      "sha256": "c046678d654eb81af053311a0366f8aa7b05e4fc67f315562a38ff15991af344",
+      "repeatSha256": "c046678d654eb81af053311a0366f8aa7b05e4fc67f315562a38ff15991af344",
+      "match": true
+    },
+    {
+      "frame": 1199,
+      "sha256": "fe9764579cba3ee5ed9854d5928b455480bf647d6cc6ca7eb576c6f79b696611",
+      "repeatSha256": "fe9764579cba3ee5ed9854d5928b455480bf647d6cc6ca7eb576c6f79b696611",
+      "match": true
+    },
+    {
+      "frame": 2965,
+      "sha256": "b7e4e86dd0325d1c157c401373269d979834b91774b3cdd73aff12b77b4f3b2b",
+      "repeatSha256": "b7e4e86dd0325d1c157c401373269d979834b91774b3cdd73aff12b77b4f3b2b",
+      "match": true
+    },
+    {
+      "frame": 4983,
+      "sha256": "3098ba9abb72376b952fdb80e97c2cb6c04a064f2efd8927182332dc3e40033c",
+      "repeatSha256": "3098ba9abb72376b952fdb80e97c2cb6c04a064f2efd8927182332dc3e40033c",
+      "match": true
+    },
+    {
+      "frame": 6308,
+      "sha256": "8ae4336c1657595b4cb8b2f5b8679525c5fd58a5eb6fdc635ee544c48c13ccbb",
+      "repeatSha256": "8ae4336c1657595b4cb8b2f5b8679525c5fd58a5eb6fdc635ee544c48c13ccbb",
+      "match": true
+    }
+  ],
+  "browserErrors": [],
+  "sourceSha256": {
+    "index.html": "8268f4c63aee64625b0e84380262a342dcae211e44e942ce863933dbca160b9f",
+    "props.js": "a79f84f67946eaee0cad80992d9761d196bd562e8bdf58aafdb5d9e2ca3f48f8",
+    "scenes.js": "6db25aba68293eb28ec50ea2f46fe207282e11f51095c3f7c53a4b916a3a987f",
+    "runtime.js": "0447d763e17b9194aed1f993ed74ded6ed70ed7e79f5b0f367ef191dfcb7185c",
+    "timeline.json": "b05a7f24cbd4fdbe9c5ea362b7377d46b69092c2005fe59d566eb8f4dc2e5fa9",
+    "assets\\page0.jpg": "1b368c747bbc0bdf924d0842bcbb56ec6272a5959ee82bf615d5ec7e24120f97",
+    "assets\\page1.jpg": "bd91865627a2446a10a99176e11ed55234bdab10b3f5a145428f1c5bea2be7b3",
+    "assets\\page2.jpg": "5e3951d5230ac10aea8051cccf8ee1d7a6f80caf78bf2023b09ec8150cc369c1",
+    "assets\\page3.jpg": "992c874c2843ff9d573928181051edd011c66da11fec858912fb85ff84b763ae",
+    "assets\\page4.jpg": "ae26ace3543f3e52090a62b655fc7ae4b84622fe2e3ae04e50a7a6299a69f988",
+    "assets\\page5.jpg": "8eeb71671ca7b8cdb673f2fcf832b69627da71f930cf3a32a971a50dd9004443"
+  }
+}

@@ -1,0 +1,19 @@
+# 大檔與可由腳本重現的產物（重跑指令見 README.md）
+final.mp4
+silent.mp4
+site/animation.mp4
+audio/music.wav
+audio/mix-master.wav
+audio/mix-filter.txt
+audio/mix-report.json
+audio/raw/
+
+# QA 暫存與日誌
+preview/
+render.log
+render-ffmpeg.log
+__pycache__/
+
+# 部署
+.vercel
+**/.vercel/

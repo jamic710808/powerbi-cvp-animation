@@ -1,0 +1,754 @@
+{
+  "schema": "code-animation/v1",
+  "locked": true,
+  "filmSha256": "610daa057f915034961e726201c73ccb9788d85b226b10d89f9ca922a3593de5",
+  "assetSha256": {
+    "audio/s01.wav": "17ea8f29d67e8ad46f8700add0be8f78277d5d4d088028e16bacc6bf220457db",
+    "audio/s02.wav": "a5bbaf3071c8af17e42ce236ed2d3acfab78f289834549ec64789ad0c3ff2ffc",
+    "audio/s03.wav": "a23aa761a4e9e7d58105e13d075479d309d49fbd735dd3f932e97aba9e4a70a2",
+    "audio/s04.wav": "170454acb5e80af15e4d66241a41e578d3f43e9739991baf87c3e93bc6581cc1",
+    "audio/s05.wav": "87c9f327d51c180453c34a77b874525e0dc2a07a56b8bf04ac6e799bc8939c5f",
+    "audio/s06.wav": "5f650ef87686cbf6bf6fcde106bb6891b9e7b8f09cc1b0b3cbb8fb541b9eaa39",
+    "audio/s07.wav": "10d2452ae1e19465c3fc2d9d82a57599f85d1d4e7f993a601ea15bf5be50ad54",
+    "audio/s08.wav": "35dc1c13616d6a9269d843ba81b77be46ff122062573ce0e19eb8f85ea9c8a6b",
+    "audio/s09.wav": "fdcf985c03c2e91867eba98c68d0ce644500d31aac254617abea501232b69659",
+    "audio/music.wav": "620dc53aee4a7b3bdca66ce04bc7d725e89cf005b55f6f31e265cb7954426a40"
+  },
+  "title": "賣多少，才不虧？——月會上的一張保本線",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "totalFrames": 6309,
+  "durationSeconds": 210.3,
+  "seed": 42,
+  "scenes": [
+    {
+      "id": "s01",
+      "title": "月會",
+      "visualSeconds": 3.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "月會上，老闆盯著折線圖：銷售額漲了，利潤卻原地踏步。他問了兩個問題：利潤怎麼沒跟著漲？下個月，至少做多少才不虧？",
+      "visual": {
+        "subject": {
+          "id": "meeting",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "gesture",
+          "effect": "pop"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 0,
+      "durationFrames": 376,
+      "endFrame": 376,
+      "voiceStartFrame": 9,
+      "voiceFrames": 355,
+      "voice": "audio/s01.wav"
+    },
+    {
+      "id": "s02",
+      "title": "四個字：量價本利",
+      "visualSeconds": 8.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "我在白板寫下四個字：量、價、本、利。銷量乘單價是收入。成本分兩種：材料人工跟著銷量走，叫變動成本；租金折舊賣多賣少都要付，叫固定費用。每賣一百元，先付變動成本，剩下的邊際貢獻，八月是三十點七元，要先把固定費用的桶子填滿，才輪到利潤。利潤，永遠是最後一個到的客人。",
+      "visual": {
+        "subject": {
+          "id": "buckets",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "flow",
+          "effect": "fill"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 376,
+      "durationFrames": 958,
+      "endFrame": 1334,
+      "voiceStartFrame": 385,
+      "voiceFrames": 937,
+      "voice": "audio/s02.wav"
+    },
+    {
+      "id": "s03",
+      "title": "保本線",
+      "visualSeconds": 8.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "保本，就是收入剛好追上總成本：固定費用，除以邊際貢獻率。三百七十四萬除以百分之三十點七，約一千二百一十七萬。這個月計畫做一千四百一十八萬，營收下滑百分之十四點二以內，都還站得住。老闆低頭看腳下：我離懸崖還有十四個百分點？我說：對，而且腳下有地板。",
+      "visual": {
+        "subject": {
+          "id": "chart",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "draw",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 1334,
+      "durationFrames": 866,
+      "endFrame": 2200,
+      "voiceStartFrame": 1343,
+      "voiceFrames": 845,
+      "voice": "audio/s03.wav"
+    },
+    {
+      "id": "s04",
+      "title": "報告登場",
+      "visualSeconds": 3.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "這份 Power BI 報告有六張頁面，分兩層：公司層問這個月要做多少才不虧；單品層問這個產品值不值得投入。",
+      "visual": {
+        "subject": {
+          "id": "pages",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "fly",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 2200,
+      "durationFrames": 333,
+      "endFrame": 2533,
+      "voiceStartFrame": 2209,
+      "voiceFrames": 312,
+      "voice": "audio/s04.wav"
+    },
+    {
+      "id": "s05",
+      "title": "經營概覽",
+      "visualSeconds": 4.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "先看全貌：三十二個月，收入四億四千五百萬，利潤三千五百五十四萬，安全邊際率百分之二十三點六。折線圖有個小秘密：每年二月，利潤都掉到零以下，原因報表沒說，我們不亂猜。",
+      "visual": {
+        "subject": {
+          "id": "overview",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "zoom",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 2533,
+      "durationFrames": 566,
+      "endFrame": 3099,
+      "voiceStartFrame": 2542,
+      "voiceFrames": 545,
+      "voice": "audio/s05.wav"
+    },
+    {
+      "id": "s06",
+      "title": "公司層：滑桿與槓桿",
+      "visualSeconds": 8.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "公司層的滑桿，老闆最愛。他把營收往下拉一成，利潤從六十二萬，掉到十八萬。老闆瞪大眼睛：營收只少一成，利潤少了七成？這是經營槓桿，七倍：賺錢時是放大鏡，虧錢時也是。同樣的分析，原生頁面透明，每個數字能逐項複核；HTML 頁面絲滑，拖著拖著答案就跟著變。",
+      "visual": {
+        "subject": {
+          "id": "slider",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "drag",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 3099,
+      "durationFrames": 871,
+      "endFrame": 3970,
+      "voiceStartFrame": 3108,
+      "voiceFrames": 850,
+      "voice": "audio/s06.wav"
+    },
+    {
+      "id": "s07",
+      "title": "單品層：旗艦君",
+      "visualSeconds": 9.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "單品層的主角，是電飯煲旗艦款，旗艦君。一臺賣三百八十六點七一元，貢獻一百一十九點零二元。計畫賣兩千九百四十五臺，邊際貢獻三十五萬，扣掉專屬固定費六萬，可追溯貢獻二十九萬；賣到四百八十六臺，就養得起專屬費用。廠房租金這種共同費用，報告不分給他，所以看的是可追溯貢獻，不是產品利潤。旗艦君說：這樣比較公平。",
+      "visual": {
+        "subject": {
+          "id": "flagship",
+          "type": "cooker-character"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "hop",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 3970,
+      "durationFrames": 994,
+      "endFrame": 4964,
+      "voiceStartFrame": 3979,
+      "voiceFrames": 973,
+      "voice": "audio/s07.wav"
+    },
+    {
+      "id": "s08",
+      "title": "口徑與模型",
+      "visualSeconds": 5.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 0.4,
+      "externalVoiceVerified": true,
+      "narration": "公式都寫在口徑說明頁。背後的模型很小：三本流水帳，四本字典，七條連線；固定費用只連到日期，所以不分攤到產品。再加六十八個計算機按鈕，全報告共用同一套定義。",
+      "visual": {
+        "subject": {
+          "id": "model",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "link",
+          "effect": "mg"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 4964,
+      "durationFrames": 547,
+      "endFrame": 5511,
+      "voiceStartFrame": 4973,
+      "voiceFrames": 526,
+      "voice": "audio/s08.wav"
+    },
+    {
+      "id": "s09",
+      "title": "回到會議室",
+      "visualSeconds": 6.0,
+      "leadSeconds": 0.3,
+      "tailSeconds": 2.4,
+      "externalVoiceVerified": true,
+      "narration": "回到會議室，老闆又問一次。我指著白板：一千二百一十七萬，是不虧的底線；一千四百一十八萬，是睡得著的距離。量本利，是讓你看清楚：拖累利潤的，是收入、成本結構，還是固定投入。老闆問：那我可以回家吃飯了嗎？我說：可以，利潤，已經到了。",
+      "visual": {
+        "subject": {
+          "id": "meeting",
+          "type": "scene-flat"
+        },
+        "style": "flat",
+        "motion": {
+          "action": "gesture",
+          "effect": "pop"
+        },
+        "renderer": "canvas2d"
+      },
+      "startFrame": 5511,
+      "durationFrames": 798,
+      "endFrame": 6309,
+      "voiceStartFrame": 5520,
+      "voiceFrames": 717,
+      "voice": "audio/s09.wav"
+    }
+  ],
+  "captions": [
+    {
+      "text": "月會上，",
+      "startFrame": 9,
+      "endFrame": 34
+    },
+    {
+      "text": "老闆盯著折線圖：銷售額漲了，",
+      "startFrame": 34,
+      "endFrame": 123
+    },
+    {
+      "text": "利潤卻原地踏步。",
+      "startFrame": 123,
+      "endFrame": 174
+    },
+    {
+      "text": "他問了兩個問題：利潤怎麼沒跟著漲？",
+      "startFrame": 174,
+      "endFrame": 282
+    },
+    {
+      "text": "下個月，",
+      "startFrame": 282,
+      "endFrame": 307
+    },
+    {
+      "text": "至少做多少才不虧？",
+      "startFrame": 307,
+      "endFrame": 364
+    },
+    {
+      "text": "我在白板寫下四個字：量、價、本、利。",
+      "startFrame": 385,
+      "endFrame": 514
+    },
+    {
+      "text": "銷量乘單價是收入。",
+      "startFrame": 514,
+      "endFrame": 578
+    },
+    {
+      "text": "成本分兩種：材料人工跟著銷量走，",
+      "startFrame": 578,
+      "endFrame": 693
+    },
+    {
+      "text": "叫變動成本；",
+      "startFrame": 693,
+      "endFrame": 735
+    },
+    {
+      "text": "租金折舊賣多賣少都要付，",
+      "startFrame": 735,
+      "endFrame": 821
+    },
+    {
+      "text": "叫固定費用。",
+      "startFrame": 821,
+      "endFrame": 864
+    },
+    {
+      "text": "每賣一百元，",
+      "startFrame": 864,
+      "endFrame": 907
+    },
+    {
+      "text": "先付變動成本，",
+      "startFrame": 907,
+      "endFrame": 957
+    },
+    {
+      "text": "剩下的邊際貢獻，",
+      "startFrame": 957,
+      "endFrame": 1014
+    },
+    {
+      "text": "八月是三十點七元，",
+      "startFrame": 1014,
+      "endFrame": 1079
+    },
+    {
+      "text": "要先把固定費用的桶子填滿，",
+      "startFrame": 1079,
+      "endFrame": 1172
+    },
+    {
+      "text": "才輪到利潤。",
+      "startFrame": 1172,
+      "endFrame": 1215
+    },
+    {
+      "text": "利潤，",
+      "startFrame": 1215,
+      "endFrame": 1236
+    },
+    {
+      "text": "永遠是最後一個到的客人。",
+      "startFrame": 1236,
+      "endFrame": 1322
+    },
+    {
+      "text": "保本，",
+      "startFrame": 1343,
+      "endFrame": 1364
+    },
+    {
+      "text": "就是收入剛好追上總成本：固定費用，",
+      "startFrame": 1364,
+      "endFrame": 1480
+    },
+    {
+      "text": "除以邊際貢獻率。",
+      "startFrame": 1480,
+      "endFrame": 1535
+    },
+    {
+      "text": "三百七十四萬除以百分之三十點七，",
+      "startFrame": 1535,
+      "endFrame": 1645
+    },
+    {
+      "text": "約一千二百一十七萬。",
+      "startFrame": 1645,
+      "endFrame": 1714
+    },
+    {
+      "text": "這個月計畫做一千四百一十八萬，",
+      "startFrame": 1714,
+      "endFrame": 1817
+    },
+    {
+      "text": "營收下滑百分之十四點二以內，",
+      "startFrame": 1817,
+      "endFrame": 1913
+    },
+    {
+      "text": "都還站得住。",
+      "startFrame": 1913,
+      "endFrame": 1954
+    },
+    {
+      "text": "老闆低頭看腳下：我離懸崖還有十四個百分點？",
+      "startFrame": 1954,
+      "endFrame": 2099
+    },
+    {
+      "text": "我說：對，",
+      "startFrame": 2099,
+      "endFrame": 2133
+    },
+    {
+      "text": "而且腳下有地板。",
+      "startFrame": 2133,
+      "endFrame": 2188
+    },
+    {
+      "text": "這份 Power BI 報告有六張頁面，",
+      "startFrame": 2209,
+      "endFrame": 2325
+    },
+    {
+      "text": "分兩層：公司層問這個月要做多少才不虧；",
+      "startFrame": 2325,
+      "endFrame": 2434
+    },
+    {
+      "text": "單品層問這個產品值不值得投入。",
+      "startFrame": 2434,
+      "endFrame": 2521
+    },
+    {
+      "text": "先看全貌：三十二個月，",
+      "startFrame": 2542,
+      "endFrame": 2615
+    },
+    {
+      "text": "收入四億四千五百萬，",
+      "startFrame": 2615,
+      "endFrame": 2682
+    },
+    {
+      "text": "利潤三千五百五十四萬，",
+      "startFrame": 2682,
+      "endFrame": 2755
+    },
+    {
+      "text": "安全邊際率百分之二十三點六。",
+      "startFrame": 2755,
+      "endFrame": 2848
+    },
+    {
+      "text": "折線圖有個小秘密：每年二月，",
+      "startFrame": 2848,
+      "endFrame": 2941
+    },
+    {
+      "text": "利潤都掉到零以下，",
+      "startFrame": 2941,
+      "endFrame": 3001
+    },
+    {
+      "text": "原因報表沒說，",
+      "startFrame": 3001,
+      "endFrame": 3047
+    },
+    {
+      "text": "我們不亂猜。",
+      "startFrame": 3047,
+      "endFrame": 3087
+    },
+    {
+      "text": "公司層的滑桿，",
+      "startFrame": 3108,
+      "endFrame": 3156
+    },
+    {
+      "text": "老闆最愛。",
+      "startFrame": 3156,
+      "endFrame": 3190
+    },
+    {
+      "text": "他把營收往下拉一成，",
+      "startFrame": 3190,
+      "endFrame": 3258
+    },
+    {
+      "text": "利潤從六十二萬，",
+      "startFrame": 3258,
+      "endFrame": 3312
+    },
+    {
+      "text": "掉到十八萬。",
+      "startFrame": 3312,
+      "endFrame": 3353
+    },
+    {
+      "text": "老闆瞪大眼睛：營收只少一成，",
+      "startFrame": 3353,
+      "endFrame": 3448
+    },
+    {
+      "text": "利潤少了七成？",
+      "startFrame": 3448,
+      "endFrame": 3496
+    },
+    {
+      "text": "這是經營槓桿，",
+      "startFrame": 3496,
+      "endFrame": 3543
+    },
+    {
+      "text": "七倍：賺錢時是放大鏡，",
+      "startFrame": 3543,
+      "endFrame": 3618
+    },
+    {
+      "text": "虧錢時也是。",
+      "startFrame": 3618,
+      "endFrame": 3659
+    },
+    {
+      "text": "同樣的分析，",
+      "startFrame": 3659,
+      "endFrame": 3700
+    },
+    {
+      "text": "原生頁面透明，",
+      "startFrame": 3700,
+      "endFrame": 3747
+    },
+    {
+      "text": "每個數字能逐項複核；",
+      "startFrame": 3747,
+      "endFrame": 3815
+    },
+    {
+      "text": "HTML 頁面絲滑，",
+      "startFrame": 3815,
+      "endFrame": 3883
+    },
+    {
+      "text": "拖著拖著答案就跟著變。",
+      "startFrame": 3883,
+      "endFrame": 3958
+    },
+    {
+      "text": "單品層的主角，",
+      "startFrame": 3979,
+      "endFrame": 4024
+    },
+    {
+      "text": "是電飯煲旗艦款，",
+      "startFrame": 4024,
+      "endFrame": 4076
+    },
+    {
+      "text": "旗艦君。",
+      "startFrame": 4076,
+      "endFrame": 4101
+    },
+    {
+      "text": "一臺賣三百八十六點七一元，",
+      "startFrame": 4101,
+      "endFrame": 4185
+    },
+    {
+      "text": "貢獻一百一十九點零二元。",
+      "startFrame": 4185,
+      "endFrame": 4263
+    },
+    {
+      "text": "計畫賣兩千九百四十五臺，",
+      "startFrame": 4263,
+      "endFrame": 4340
+    },
+    {
+      "text": "邊際貢獻三十五萬，",
+      "startFrame": 4340,
+      "endFrame": 4398
+    },
+    {
+      "text": "扣掉專屬固定費六萬，",
+      "startFrame": 4398,
+      "endFrame": 4462
+    },
+    {
+      "text": "可追溯貢獻二十九萬；",
+      "startFrame": 4462,
+      "endFrame": 4527
+    },
+    {
+      "text": "賣到四百八十六臺，",
+      "startFrame": 4527,
+      "endFrame": 4585
+    },
+    {
+      "text": "就養得起專屬費用。",
+      "startFrame": 4585,
+      "endFrame": 4643
+    },
+    {
+      "text": "廠房租金這種共同費用，",
+      "startFrame": 4643,
+      "endFrame": 4714
+    },
+    {
+      "text": "報告不分給他，",
+      "startFrame": 4714,
+      "endFrame": 4759
+    },
+    {
+      "text": "所以看的是可追溯貢獻，",
+      "startFrame": 4759,
+      "endFrame": 4830
+    },
+    {
+      "text": "不是產品利潤。",
+      "startFrame": 4830,
+      "endFrame": 4875
+    },
+    {
+      "text": "旗艦君說：這樣比較公平。",
+      "startFrame": 4875,
+      "endFrame": 4952
+    },
+    {
+      "text": "公式都寫在口徑說明頁。",
+      "startFrame": 4973,
+      "endFrame": 5048
+    },
+    {
+      "text": "背後的模型很小：三本流水帳，",
+      "startFrame": 5048,
+      "endFrame": 5144
+    },
+    {
+      "text": "四本字典，",
+      "startFrame": 5144,
+      "endFrame": 5178
+    },
+    {
+      "text": "七條連線；",
+      "startFrame": 5178,
+      "endFrame": 5212
+    },
+    {
+      "text": "固定費用只連到日期，",
+      "startFrame": 5212,
+      "endFrame": 5280
+    },
+    {
+      "text": "所以不分攤到產品。",
+      "startFrame": 5280,
+      "endFrame": 5342
+    },
+    {
+      "text": "再加六十八個計算機按鈕，",
+      "startFrame": 5342,
+      "endFrame": 5424
+    },
+    {
+      "text": "全報告共用同一套定義。",
+      "startFrame": 5424,
+      "endFrame": 5499
+    },
+    {
+      "text": "回到會議室，",
+      "startFrame": 5520,
+      "endFrame": 5558
+    },
+    {
+      "text": "老闆又問一次。",
+      "startFrame": 5558,
+      "endFrame": 5602
+    },
+    {
+      "text": "我指著白板：一千二百一十七萬，",
+      "startFrame": 5602,
+      "endFrame": 5696
+    },
+    {
+      "text": "是不虧的底線；",
+      "startFrame": 5696,
+      "endFrame": 5740
+    },
+    {
+      "text": "一千四百一十八萬，",
+      "startFrame": 5740,
+      "endFrame": 5797
+    },
+    {
+      "text": "是睡得著的距離。",
+      "startFrame": 5797,
+      "endFrame": 5847
+    },
+    {
+      "text": "量本利，",
+      "startFrame": 5847,
+      "endFrame": 5872
+    },
+    {
+      "text": "是讓你看清楚：拖累利潤的，",
+      "startFrame": 5872,
+      "endFrame": 5954
+    },
+    {
+      "text": "是收入、成本結構，",
+      "startFrame": 5954,
+      "endFrame": 6011
+    },
+    {
+      "text": "還是固定投入。",
+      "startFrame": 6011,
+      "endFrame": 6055
+    },
+    {
+      "text": "老闆問：那我可以回家吃飯了嗎？",
+      "startFrame": 6055,
+      "endFrame": 6149
+    },
+    {
+      "text": "我說：可以，",
+      "startFrame": 6149,
+      "endFrame": 6187
+    },
+    {
+      "text": "利潤，",
+      "startFrame": 6187,
+      "endFrame": 6206
+    },
+    {
+      "text": "已經到了。",
+      "startFrame": 6206,
+      "endFrame": 6237
+    }
+  ],
+  "captionTiming": "character-weighted-approximation",
+  "audioTracks": [
+    {
+      "file": "audio/music.wav",
+      "startSeconds": 0,
+      "gain": 1.0
+    }
+  ]
+}

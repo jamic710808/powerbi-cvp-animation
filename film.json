@@ -1,0 +1,207 @@
+{
+ "schema": "code-animation/v1",
+ "title": "賣多少，才不虧？——月會上的一張保本線",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "seed": 42,
+ "speechCharsPerSecond": 4.5,
+ "scenes": [
+  {
+   "id": "s01",
+   "title": "月會",
+   "visualSeconds": 3.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "月會上，老闆盯著折線圖：銷售額漲了，利潤卻原地踏步。他問了兩個問題：利潤怎麼沒跟著漲？下個月，至少做多少才不虧？",
+   "visual": {
+    "subject": {
+     "id": "meeting",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "gesture",
+     "effect": "pop"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s02",
+   "title": "四個字：量價本利",
+   "visualSeconds": 8.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "我在白板寫下四個字：量、價、本、利。銷量乘單價是收入。成本分兩種：材料人工跟著銷量走，叫變動成本；租金折舊賣多賣少都要付，叫固定費用。每賣一百元，先付變動成本，剩下的邊際貢獻，八月是三十點七元，要先把固定費用的桶子填滿，才輪到利潤。利潤，永遠是最後一個到的客人。",
+   "visual": {
+    "subject": {
+     "id": "buckets",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "flow",
+     "effect": "fill"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s03",
+   "title": "保本線",
+   "visualSeconds": 8.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "保本，就是收入剛好追上總成本：固定費用，除以邊際貢獻率。三百七十四萬除以百分之三十點七，約一千二百一十七萬。這個月計畫做一千四百一十八萬，營收下滑百分之十四點二以內，都還站得住。老闆低頭看腳下：我離懸崖還有十四個百分點？我說：對，而且腳下有地板。",
+   "visual": {
+    "subject": {
+     "id": "chart",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "draw",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s04",
+   "title": "報告登場",
+   "visualSeconds": 3.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "這份 Power BI 報告有六張頁面，分兩層：公司層問這個月要做多少才不虧；單品層問這個產品值不值得投入。",
+   "visual": {
+    "subject": {
+     "id": "pages",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "fly",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s05",
+   "title": "經營概覽",
+   "visualSeconds": 4.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "先看全貌：三十二個月，收入四億四千五百萬，利潤三千五百五十四萬，安全邊際率百分之二十三點六。折線圖有個小秘密：每年二月，利潤都掉到零以下，原因報表沒說，我們不亂猜。",
+   "visual": {
+    "subject": {
+     "id": "overview",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "zoom",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s06",
+   "title": "公司層：滑桿與槓桿",
+   "visualSeconds": 8.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "公司層的滑桿，老闆最愛。他把營收往下拉一成，利潤從六十二萬，掉到十八萬。老闆瞪大眼睛：營收只少一成，利潤少了七成？這是經營槓桿，七倍：賺錢時是放大鏡，虧錢時也是。同樣的分析，原生頁面透明，每個數字能逐項複核；HTML 頁面絲滑，拖著拖著答案就跟著變。",
+   "visual": {
+    "subject": {
+     "id": "slider",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "drag",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s07",
+   "title": "單品層：旗艦君",
+   "visualSeconds": 9.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "單品層的主角，是電飯煲旗艦款，旗艦君。一臺賣三百八十六點七一元，貢獻一百一十九點零二元。計畫賣兩千九百四十五臺，邊際貢獻三十五萬，扣掉專屬固定費六萬，可追溯貢獻二十九萬；賣到四百八十六臺，就養得起專屬費用。廠房租金這種共同費用，報告不分給他，所以看的是可追溯貢獻，不是產品利潤。旗艦君說：這樣比較公平。",
+   "visual": {
+    "subject": {
+     "id": "flagship",
+     "type": "cooker-character"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "hop",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s08",
+   "title": "口徑與模型",
+   "visualSeconds": 5.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 0.4,
+   "externalVoiceVerified": true,
+   "narration": "公式都寫在口徑說明頁。背後的模型很小：三本流水帳，四本字典，七條連線；固定費用只連到日期，所以不分攤到產品。再加六十八個計算機按鈕，全報告共用同一套定義。",
+   "visual": {
+    "subject": {
+     "id": "model",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "link",
+     "effect": "mg"
+    },
+    "renderer": "canvas2d"
+   }
+  },
+  {
+   "id": "s09",
+   "title": "回到會議室",
+   "visualSeconds": 6.0,
+   "leadSeconds": 0.3,
+   "tailSeconds": 2.4,
+   "externalVoiceVerified": true,
+   "narration": "回到會議室，老闆又問一次。我指著白板：一千二百一十七萬，是不虧的底線；一千四百一十八萬，是睡得著的距離。量本利，是讓你看清楚：拖累利潤的，是收入、成本結構，還是固定投入。老闆問：那我可以回家吃飯了嗎？我說：可以，利潤，已經到了。",
+   "visual": {
+    "subject": {
+     "id": "meeting",
+     "type": "scene-flat"
+    },
+    "style": "flat",
+    "motion": {
+     "action": "gesture",
+     "effect": "pop"
+    },
+    "renderer": "canvas2d"
+   }
+  }
+ ],
+ "audioTracks": [
+  {
+   "file": "audio/music.wav",
+   "startSeconds": 0,
+   "gain": 1.0
+  }
+ ]
+}
